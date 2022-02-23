@@ -1,0 +1,23 @@
+반복문
+
+#include <stdio.h>
+printf();
+scanf();
+
+for. while 각각의 장단점이 있음
+
+for( 반복자 초기화; 반복자 조건 체크; 반복자 변경)
+{
+}
+
+for(int i =0; i<10; ++i)
+{
+}
+
+while(조건 체크)
+{
+}
+
+continue; -> 뒷부분을 수행하지 않고 바로 반복자로 감
+
+break; -> 반복문 종료

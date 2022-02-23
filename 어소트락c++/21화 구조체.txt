@@ -1,0 +1,28 @@
+구조체
+ = 사용자 정의 자료형
+
+typedef struct _tagMYST
+{
+	int a;
+	float f;
+}MYST;
+
+typedef struct _tagBIG // 구조체 확장 시키기 
+{
+	MYST k;
+	int i;
+	char c;
+}BIG;
+
+typedef int INT; // INT 는 int 와 똑같은 말로 사용되게 된다
+
+int main()
+{
+	MYST t = {100, 3.14f}; // t 안에 int부분(이 부분의 이름이 a), float부분(부분의 이름이 f)이 존재
+
+	t.a = 10;
+	t.f = 5.141542f;
+	
+	int iSize = sizeof(MYST);
+	return 0;
+}

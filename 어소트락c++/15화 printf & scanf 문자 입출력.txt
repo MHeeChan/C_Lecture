@@ -1,0 +1,7 @@
+printf( "어쩌구 %d |n", 10 );
+printf( "어쩌구 %f |n", 3.14f) ;
+
+scanf_s 	콘솔창에서 입력을 받는다.
+
+int iInput = 0;
+scanf_s("%d", &iInput);
